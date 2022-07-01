@@ -1,0 +1,30 @@
+{
+  "group": "craftable_uncraftables",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:poppy"
+    },
+    "3": {
+      "item": "minecraft:poppy"
+    },
+    "4": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "5": {
+      "item": "minecraft:poppy"
+    },
+    "7": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "result": {
+    "item": "minecraft:wither_rose",
+    "count": 1
+  }
+}

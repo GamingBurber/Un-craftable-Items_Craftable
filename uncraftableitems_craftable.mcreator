@@ -1,5 +1,69 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ChainmailRecipeHelmet",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_recipe_helmet",
+      "path": "~/recipes/Armours/Chainmail_Armour"
+    },
+    {
+      "name": "ChainmailRecipeChestplate",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_recipe_chestplate",
+      "path": "~/recipes/Armours/Chainmail_Armour"
+    },
+    {
+      "name": "ChainmailRecipeLeggings",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_recipe_leggings",
+      "path": "~/recipes/Armours/Chainmail_Armour"
+    },
+    {
+      "name": "ChainmailRecipeBoots",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_recipe_boots",
+      "path": "~/recipes/Armours/Chainmail_Armour"
+    },
+    {
+      "name": "TotemOfUndyingRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_recipe",
+      "path": "~/recipes/Items"
+    },
+    {
+      "name": "DeadBushRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_bush_recipe",
+      "path": "~/recipes/Plants"
+    },
+    {
+      "name": "WitherRoseRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_rose_recipe",
+      "path": "~/recipes/Plants"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -7,15 +71,39 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "recipes",
+        "children": [
+          {
+            "name": "Armours",
+            "children": [
+              {
+                "name": "Chainmail_Armour",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Plants",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "uncraftableitems_craftable",
-    "modName": "Un-Craftable-Items_Craftable",
+    "modName": "Un-Craftable Items Craftable",
     "version": "1.0.0",
-    "author": "gggam, MCreator",
+    "description": "Makes some un-craftable items craftable.",
+    "author": "GamingBurber",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -23,6 +111,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "datapack-1.16.x",
+    "credits": "GamingBurber and MCreator",
     "modElementsPackage": "net.mcreator.uncraftableitemscraftable",
     "lockBaseModFiles": false
   },
