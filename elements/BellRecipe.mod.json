@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "craftable_uncraftables",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BELL"
+    },
+    "name": "bell_recipe",
+    "namespace": "mod"
+  }
+}

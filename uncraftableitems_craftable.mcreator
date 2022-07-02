@@ -116,6 +116,15 @@
       "locked_code": false,
       "registry_name": "dragon_head_recipe",
       "path": "~/recipes/Special/Heads"
+    },
+    {
+      "name": "BellRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell_recipe",
+      "path": "~/recipes/Blocks"
     }
   ],
   "variable_elements": [],
