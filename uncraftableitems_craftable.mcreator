@@ -62,6 +62,60 @@
       "locked_code": false,
       "registry_name": "wither_rose_recipe",
       "path": "~/recipes/Plants"
+    },
+    {
+      "name": "NametagRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_recipe",
+      "path": "~/recipes/Items"
+    },
+    {
+      "name": "ObsidianRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_recipe",
+      "path": "~/recipes/Blocks"
+    },
+    {
+      "name": "SteveHeadRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_head_recipe",
+      "path": "~/recipes/Special/Heads"
+    },
+    {
+      "name": "ZombieHeadRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_head_recipe",
+      "path": "~/recipes/Special/Heads"
+    },
+    {
+      "name": "CreeperHeadRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_head_recipe",
+      "path": "~/recipes/Special/Heads"
+    },
+    {
+      "name": "DragonHeadRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_head_recipe",
+      "path": "~/recipes/Special/Heads"
     }
   ],
   "variable_elements": [],
@@ -91,6 +145,19 @@
           {
             "name": "Plants",
             "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Special",
+            "children": [
+              {
+                "name": "Heads",
+                "children": []
+              }
+            ]
           }
         ]
       }
